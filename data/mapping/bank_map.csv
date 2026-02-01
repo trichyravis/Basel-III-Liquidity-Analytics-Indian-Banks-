@@ -1,1 +1,9 @@
 
+Yahoo_Finance_Label,Basel_III_Category,Notes
+Cash And Cash Equivalents,Level_1_HQLA,Immediate Liquidity
+Government Securities,Level_1_HQLA,Sovereign Backed
+Corporate Bonds,Level_2A_HQLA,High Quality Credit
+Total Deposits,Retail_Stable,Core Customer Funding
+Short Term Borrowings,Wholesale_Unsecured,Volatile Funding
+Common Stock Equity,Equity_Capital,Tier 1 Stability
+Net Loans,Loans_to_Retail,Long term assets
