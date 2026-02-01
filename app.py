@@ -1,3 +1,15 @@
+
+import sys
+import os
+
+# This forces the app to look in its own root directory for the 'src' folder
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# Now perform your imports
+from src.risk_engine import calculate_ratios
+from src.data_ingestion import fetch_bank_data
+# ... rest of your imports
+
 import streamlit as st
 import yaml
 import pandas as pd
