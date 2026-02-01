@@ -1,1 +1,24 @@
+[theme]
+# Primary accent color for interactive elements and sliders
+primaryColor = "#003366"
 
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color for the sidebar
+secondaryBackgroundColor = "#F0F2F6"
+
+# Color for main text
+textColor = "#262730"
+
+# Font family (Sans-serif is standard for financial dashboards)
+font = "sans serif"
+
+[server]
+# Ensures the app doesn't timeout during large data fetches
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Removes the "Made with Streamlit" footer for a professional white-label look
+gatherUsageStats = false
