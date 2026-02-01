@@ -1,3 +1,4 @@
+
 import pandas as pd
 
 def apply_basel_mapping(financials_series, mapping_path="data/mapping/bank_map.csv"):
