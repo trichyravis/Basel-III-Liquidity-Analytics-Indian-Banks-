@@ -1,7 +1,8 @@
 
 Yahoo_Finance_Label,Basel_III_Category,Notes
-Cash Cash Equivalents And Short Term Investments,Level_1_HQLA,Includes RBI balances and liquid cash.
-Other Short Term Investments,Level_2A_HQLA,Often contains high-quality corporate paper.
-Total Deposits,Retail_Stable,Core customer funding source.
-Stockholders Equity,Equity_Capital,Used for the ASF numerator in NSFR.
-Net PPE,Loans_to_Retail,Used as a proxy for long-term illiquid assets.
+Cash Cash Equivalents And Short Term Investments,Level_1_HQLA,This is the primary HQLA source in Yahoo data.
+Other Short Term Investments,Level_2A_HQLA,Often mapped to secondary liquid assets.
+Total Deposits,Retail_Stable,Used as the primary outflow source in the LCR denominator.
+Stockholders Equity,Equity_Capital,Key component for the Available Stable Funding (ASF).
+Net PPE,Loans_to_Retail,Commonly used as a proxy for long-term illiquid assets (RSF).
+Total Debt,Wholesale_Unsecured,High-stress run-off category.
