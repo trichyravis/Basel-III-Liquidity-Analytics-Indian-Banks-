@@ -1,9 +1,7 @@
 
 Yahoo_Finance_Label,Basel_III_Category,Notes
-Cash And Cash Equivalents,Level_1_HQLA,Immediate Liquidity
-Government Securities,Level_1_HQLA,Sovereign Backed
-Corporate Bonds,Level_2A_HQLA,High Quality Credit
-Total Deposits,Retail_Stable,Core Customer Funding
-Short Term Borrowings,Wholesale_Unsecured,Volatile Funding
-Common Stock Equity,Equity_Capital,Tier 1 Stability
-Net Loans,Loans_to_Retail,Long term assets
+Cash Cash Equivalents And Short Term Investments,Level_1_HQLA,Includes RBI balances and liquid cash.
+Other Short Term Investments,Level_2A_HQLA,Often contains high-quality corporate paper.
+Total Deposits,Retail_Stable,Core customer funding source.
+Stockholders Equity,Equity_Capital,Used for the ASF numerator in NSFR.
+Net PPE,Loans_to_Retail,Used as a proxy for long-term illiquid assets.
