@@ -1,1 +1,22 @@
 
+regulatory_settings:
+  lcr:
+    haircuts:
+      level_1_hqla: 0.00
+      level_2a_hqla: 0.15
+    run_off_rates:
+      retail_stable: 0.05
+      wholesale_unsecured: 1.00
+  nsfr:
+    asf_factors:
+      capital: 1.00
+      retail_deposits: 0.90
+    rsf_factors:
+      cash: 0.00
+      loans_to_retail: 0.85
+      non_performing_loans: 1.00
+
+stress_scenarios:
+  severe:
+    run_off_multiplier: 2.0
+    haircut_multiplier: 1.5
