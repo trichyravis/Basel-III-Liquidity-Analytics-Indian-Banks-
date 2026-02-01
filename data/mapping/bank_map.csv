@@ -1,7 +1,7 @@
 
 Yahoo_Finance_Label,Basel_III_Category,Notes
-Cash Cash Equivalents And Short Term Investments,Level_1_HQLA,Standard LCR HQLA
-Other Short Term Investments,Level_1_HQLA,Often used for excess SLR
-Total Deposits,Retail_Stable,5%–10% run-off in LCR
-Stockholders Equity,Equity_Capital,100% ASF in NSFR
-Net PPE,Loans_to_Retail,Primary RSF driver
+Cash Cash Equivalents And Short Term Investments,Level_1_HQLA,Standard Level 1 HQLA
+Other Short Term Investments,Level_2A_HQLA,Marketable securities
+Total Deposits,Retail_Stable,30-day outflow source
+Common Stock Equity,Equity_Capital,100% ASF for NSFR
+Net PPE,Loans_to_Retail,Main RSF driver
